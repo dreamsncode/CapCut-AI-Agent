@@ -1,29 +1,57 @@
-# CapCut AI Agent
+# 🎬 CapCut AI Agent – Python Automation Toolkit
 
-🚀 A Python-based automation script that opens CapCut and performs actions using PyAutoGUI.
+🚀 A Python-based automation system to enhance CapCut editing using keyboard & screen actions via **PyAutoGUI**.
 
-## Features
+This is part of a modular AI Agent project that aims to automate tasks like:
+- Opening CapCut
+- Deleting specific video sections
+- Voice removal (Coming soon)
+- B-roll marker (Coming soon)
 
-- Automatically opens CapCut
-- Uses `pyautogui` to detect and click screen areas
-- Built for 345x485 CapCut window resolution
+---
 
-## How to Run
+## 🔧 Current Modules
 
-1. Install Python 3.x  
-2. Install required package
-   
-          pip install pyautogui
-4. Run the script :
+### 1. `open_capcut.py`  
+📂 *Launches CapCut automatically from your system.*
 
-          python open_capcut.py
+- Opens CapCut from the default install location.
+- Built for 345x485 window resolution.
+- Uses `pyautogui` for mouse movement & clicks.
 
-## Requirements
-Windows OS
+**Run it with:**
+```bash
+python open_capcut.py
+```
+### 2. Capcut_split_and_delete.py
+📂 Deletes specific sections of a clip based on timecodes.
 
-CapCut installed
+- Prompts for start and end times in hours:minutes:seconds:frames
 
-Python installed
+- Navigates using right key, splits using Ctrl+B
 
+- Deletes the selected range
 
+- Accepts multiple delete ranges
+ ```bash
+python Capcut_split_and_delete.py
+```
+## 📦 Python Dependencies
+  Install the required Python packages: 
+  
+```bash
+pip install pyautogui pygetwindow
+```
+Package	Purpose
+pyautogui :-	Simulates mouse clicks and key presses for CapCut UI
+pygetwindow :-	Finds and focuses the CapCut window automatically
 
+##📁 File Structure
+CapCut-AI-Agent/
+├── open_capcut.py             # Script to auto-launch CapCut
+├── Capcut_split_and_delete.py # Script to delete clips by time range
+├── README.md                  # Project overview
+
+🔜 Upcoming Modules
+- capcut_voice_removal.py – Silences voice using frame-based audio gap detection
+- capcut_broll_marker.py – Marks silence spots for B-roll placement
