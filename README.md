@@ -36,18 +36,22 @@ python open_capcut.py
 python Capcut_split_and_delete.py
 ```
 ## 📦 Python Dependencies
+
   Install the required Python packages: 
   
 ```bash
 pip install pyautogui pygetwindow
 ```
 Package	Purpose
+
 pyautogui :-	Simulates mouse clicks and key presses for CapCut UI
+
 pygetwindow :-	Finds and focuses the CapCut window automatically
 
 ##📁 File Structure
 
 CapCut-AI-Agent/
+
 ├── open_capcut.py             # Script to auto-launch CapCut
 
 ├── Capcut_split_and_delete.py # Script to delete clips by time range
@@ -55,4 +59,5 @@ CapCut-AI-Agent/
 ├── README.md                  # Project overview
 
 🔜 Upcoming Modules
+
 - capcut_broll_marker.py – Marks silence spots for B-roll placement
