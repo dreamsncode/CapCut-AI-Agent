@@ -46,9 +46,12 @@ pyautogui :-	Simulates mouse clicks and key presses for CapCut UI
 pygetwindow :-	Finds and focuses the CapCut window automatically
 
 ##📁 File Structure
+
 CapCut-AI-Agent/
 ├── open_capcut.py             # Script to auto-launch CapCut
+
 ├── Capcut_split_and_delete.py # Script to delete clips by time range
+
 ├── README.md                  # Project overview
 
 🔜 Upcoming Modules
