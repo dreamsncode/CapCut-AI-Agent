@@ -45,6 +45,7 @@ pip install pyautogui pygetwindow
 Package	Purpose
 
 pyautogui :-	Simulates mouse clicks and key presses for CapCut UI
+
 pygetwindow :-	Finds and focuses the CapCut window automatically
 
 ##📁 File Structure
