@@ -5,7 +5,6 @@
 This is part of a modular AI Agent project that aims to automate tasks like:
 - Opening CapCut
 - Deleting specific video sections
-- Voice removal (Coming soon)
 - B-roll marker (Coming soon)
 
 ---
@@ -53,5 +52,4 @@ CapCut-AI-Agent/
 ├── README.md                  # Project overview
 
 🔜 Upcoming Modules
-- capcut_voice_removal.py – Silences voice using frame-based audio gap detection
 - capcut_broll_marker.py – Marks silence spots for B-roll placement
